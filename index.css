@@ -159,8 +159,8 @@ font-weight: 800;
 }
 .content-table {
     border-collapse: collapse;
-    /* min-width: calc(100%-100px); */
-    /* margin: auto; */
+     min-width: 100%;
+     margin: auto; 
 }
 
 td,
