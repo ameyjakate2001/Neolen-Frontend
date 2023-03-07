@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-font-family: 'Manrope', sans-serif;}
+    font-family: 'Manrope', sans-serif;
+}
 
-body{
-  overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
 
 /* CONTAINER */
@@ -13,6 +14,7 @@ body{
 .container {
     min-height: 100vh;
 }
+
 .Container .header>h2,
 h3,
 h4,
@@ -59,28 +61,34 @@ p {
 .contents {
     padding: 20px 100px;
 }
+
 .content-1 {
     min-height: 500px;
 }
+
 .content-dabba {
     display: flex;
     flex-direction: column;
 }
+
 .content-dabba .heading {
-  background: url('./head-background.png');
-background-size: cover;
+    background: url('./images/head-background.png');
+    background-size: cover;
     background-position: center;
     width: 170px;
     height: 50px;
 }
+
 .content-dabba h2 {
     font-size: 2.6em;
     font-weight: bold !important;
 }
+
 .content-dabba p {
     margin: 15px 0;
-     font-size: 15px;
-    }
+    font-size: 15px;
+}
+
 .pic-dabba img {
     height: 384px;
     width: 482px;
@@ -98,17 +106,19 @@ background-size: cover;
     background: #F1FAFF;
     padding: 120px 100px;
 }
+
 .content-dabba h3 {
-font-weight: 800;
+    font-weight: 800;
     font-size: 40px;
     line-height: 54px;
- }
- .content-dabba h3 span {
-     display: block;
-     color: #E04D30;
- }
+}
 
-.content-dabba .info-dabba{
+.content-dabba h3 span {
+    display: block;
+    color: #E04D30;
+}
+
+.content-dabba .info-dabba {
     width: 450px;
     padding: 20px;
     margin: 10px 0;
@@ -124,7 +134,7 @@ font-weight: 800;
 }
 
 .info-dabba p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 
@@ -135,32 +145,38 @@ font-weight: 800;
     padding: 100px;
     position: relative;
 }
+
 .content {
     max-width: 700px;
     margin: auto;
     text-align: center;
 }
+
 .content h6 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
+
 .content h3 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
 .content p {
-  font-size: 18px;
-  margin-bottom: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
+
 .color {
     color: #E04D30;
 }
+
 .content-table {
     border-collapse: collapse;
-     min-width: 100%;
-     margin: auto; 
+    min-width: 100%;
+    margin: auto;
 }
 
 td,
@@ -195,6 +211,7 @@ td {
 .content-table tbody tr td:nth-child(2) {
     color: #4CD964;
 }
+
 .content-table tbody tr td:nth-child(3) {
     color: #FD5656;
 }
@@ -221,8 +238,9 @@ td {
 }
 
 .pagination .selected {
- background: #ace4fd;
+    background: #ace4fd;
 }
+
 .number {
     width: 15%;
     margin: 10px;
@@ -237,38 +255,45 @@ td {
 
 /* VIDEO SECTION */
 .footer {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 .footer-dabba {
-height: 500px;
-  padding: 100px;
-  background: #1099EE;
-  color: #fff;
-  position: relative;
+    height: 500px;
+    padding: 100px;
+    background: #1099EE;
+    color: #fff;
+    position: relative;
 }
+
 .footer-dabba img {
-  width: 49px;
-  height: 78px;
-  position: absolute;
-  top:20px;
-  right:20px;
+    width: 49px;
+    height: 78px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
+
 .footer-dabba h6 {
-font-size: 16px;
-margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
 .footer-dabba h3 {
-font-size: 40px;
-margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
+
 .footer-dabba p {
-font-size: 16px;
-margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
+
 .last {
-  background: #1099EE;
-  height: 40px;
+    background: #1099EE;
+    height: 40px;
 }
+
 button {
     height: 53px;
     font-weight: 600;
