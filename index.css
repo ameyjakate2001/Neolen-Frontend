@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Manrope', sans-serif;}
+
+body{
+  overflow-x: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+    min-height: 100vh;
+}
+.Container .header>h2,
+h3,
+h4,
+p {
+    margin: 0px 0px;
+}
+
+
+
+/* HEADER */
+.header {
+    height: 300px;
+    background: linear-gradient(180deg, rgba(16, 153, 238, 0) 86.98%, rgba(13, 127, 198, 0.1) 100%);
+}
+
+.header img {
+    height: 82px;
+    width: 124px;
+}
+
+.header h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E04D30;
+}
+
+.header h2 {
+    font-size: 40px;
+    color: #292B2C;
+}
+
+.header p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #292B2C;
+    word-spacing: 0;
+}
+
+
+
+
+/* FEATURE SECTIONS */
+.contents {
+    padding: 20px 100px;
+}
+.content-1 {
+    min-height: 500px;
+}
+.content-dabba {
+    display: flex;
+    flex-direction: column;
+}
+.content-dabba .heading {
+  background: url('./head-background.png');
+background-size: cover;
+    background-position: center;
+    width: 170px;
+    height: 50px;
+}
+.content-dabba h2 {
+    font-size: 2.6em;
+    font-weight: bold !important;
+}
+.content-dabba p {
+    margin: 15px 0;
+     font-size: 15px;
+    }
+.pic-dabba img {
+    height: 384px;
+    width: 482px;
+}
+
+.pic-2-dabba img {
+    height: 570px;
+}
+
+
+
+
+/* WHY CHOOSE SECTION  */
+.contents-2 {
+    background: #F1FAFF;
+    padding: 120px 100px;
+}
+.content-dabba h3 {
+font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+ }
+ .content-dabba h3 span {
+     display: block;
+     color: #E04D30;
+ }
+
+.content-dabba .info-dabba{
+    width: 450px;
+    padding: 20px;
+    margin: 10px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(16, 153, 238, 0.2);
+    border-radius: 20px;
+}
+
+.info-dabba h4 {
+    font-weight: 800;
+    font-size: 24px;
+    color: #292B2C;
+}
+
+.info-dabba p {
+  font-size: 16px;
+}
+
+
+
+
+/* TABLE SECTION */
+.table-dabba {
+    padding: 100px;
+    position: relative;
+}
+.content {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.content h6 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.color {
+    color: #E04D30;
+}
+.content-table {
+    border-collapse: collapse;
+    /* min-width: calc(100%-100px); */
+    /* margin: auto; */
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+.content-table thead tr {
+    color: #1099EE;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-table thead tr:nth-child(1) {
+    background-color: #F1FAFF;
+
+}
+
+.content-table thead tr:nth-child(2),
+td {
+    text-align: left;
+    border-width: 2px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E3F4FF;
+
+}
+
+.content-table tbody tr:nth-child(even) {
+    background-color: #F1FAFF;
+}
+
+.content-table tbody tr td:nth-child(2) {
+    color: #4CD964;
+}
+.content-table tbody tr td:nth-child(3) {
+    color: #FD5656;
+}
+
+.content-table tbody tr td {
+    color: #292B2C;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px;
+    gap: 8px;
+}
+
+.pagination {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 100px;
+    bottom: 30px;
+    height: 40px;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+}
+
+.pagination .selected {
+ background: #ace4fd;
+}
+.number {
+    width: 15%;
+    margin: 10px;
+    height: 80%;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    color: #000000;
+}
+
+
+
+
+/* VIDEO SECTION */
+.footer {
+  margin-top: 30px;
+}
+.footer-dabba {
+height: 500px;
+  padding: 100px;
+  background: #1099EE;
+  color: #fff;
+  position: relative;
+}
+.footer-dabba img {
+  width: 49px;
+  height: 78px;
+  position: absolute;
+  top:20px;
+  right:20px;
+}
+.footer-dabba h6 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+.footer-dabba h3 {
+font-size: 40px;
+margin-bottom: 10px;
+}
+.footer-dabba p {
+font-size: 16px;
+margin-bottom: 30px;
+}
+.last {
+  background: #1099EE;
+  height: 40px;
+}
+button {
+    height: 53px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #1099EE;
+    background: #FFFFFF;
+    width: 200px;
+    border: 1px solid #1099EE;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* UTILITIES CLASSES */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-gap: 10px;
+}
