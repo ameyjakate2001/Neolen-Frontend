@@ -5,9 +5,6 @@
     font-family: 'Manrope', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 /* CONTAINER */
 
@@ -318,6 +315,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .grid {
@@ -332,4 +330,24 @@ button {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     grid-gap: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+    .grid {
+     grid-template-columns: 1fr;
+     grid-gap: 10px;
+    }
+    .grid-2{
+      grid-template-columns: 1fr;
+    }
+   .pic-dabba img {
+       height: 200px;
+       width: 200pxpx;
+   }
+   .pic-2-dabba img {
+       height: 300px;
+   }
 }
